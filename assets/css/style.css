@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+}
+ul {
+    padding-left: 0;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+img {
+    max-width: 100%;
+}
+.ptb-150{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.tc{
+    text-align: center;
+}
+a {
+    transition: .6s;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    -ms-transition: .6s;
+}
+.d-table {
+    width: 100%;
+    height: 100%;
+}
+.d-table-cell {
+    vertical-align: middle;
+}
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*Nav Css Start*/
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    padding-top: 25px;
+    position: absolute;
+    padding-bottom: 25px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    margin-left: 160px;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #222d39;
+    text-transform: capitalize;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {
+    color:#5e2ced ;
+}
+
+.top-btn{
+    background: #5e2ced;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding: 14px 62px 14px;
+    text-decoration: none;
+    border-radius: 60px;
+    transition: .5s;
+}
+.top-btn:hover{
+    background-color: #222d39;
+    color: #fff;
+}
+span.first {
+    position: absolute;
+    /* bottom: 0px; */
+    /* left: 21px; */
+    right: 19%;
+    top: 85px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8d8689;
+}
+/*Nav Css End*/
+/*Banner Css Start*/
+.section-title h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    color: #051441;
+    font-family: 'Poppins', sans-serif;
+}
+.section-title p {
+    text-align: center;
+    max-width: 653px;
+    margin: auto;
+    color: #677294;
+}
+/*Banner-Area Start*/
+.banner-area{
+    background-color: #efc9d9;
+}
+.banner-text h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #051441;
+    text-align: center;
+}
+.banner-text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+}
+.owl-carousel .owl-item img {
+    width: auto;
+}
+.logo-slider {
+    margin-top: 80px;
+}
+.banne-image{
+    animation: movebounce 5s linear infinite;
+}
+@keyframes movebounce {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/*Banner-Area End*/
+/*Prodect Sec Start*/
+
+.activity-sec p {
+    margin-left: 30px;
+    max-width: 304px;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 400;
+    margin-bottom: 145px;
+}
+.activity-sec img {
+    position: absolute;
+    left: -90px;
+}
+.activity-sec {
+    position: relative;
+    margin-top: 130px;
+}
+.activity-sec h5 {
+    margin-left: 30px;
+}
+/*Prodect Sec End*/
+/*Prodect Sec 2 Start*/
+.prodc-contant {
+    margin-bottom: 100px;
+    position: relative;
+}
+.prodct-text h5 {
+    font-size: 30px;
+    margin-top: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222222;
+    padding-left: 26px;
+    max-width: 446px;
+}
+.prodct-tex h5 {
+    font-size: 30px;
+    margin-top: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222222;
+    padding-left: 26px;
+    max-width: 446px;
+}
+.prodct-text {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #fff;
+    position: absolute;
+    top: -50px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    right: 175px;
+    padding-right: 50px;
+}
+.prodct-tex {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #fff;
+    position: absolute;
+    top: -50px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    left: 50px;
+    padding-right: 50px;
+}
+.prodct-text p {
+    max-width: 392px;
+    padding-left: 26px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8c8c8c;
+}
+.prodct-tex p {
+    max-width: 392px;
+    padding-left: 26px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8c8c8c;
+}
+a.prodct-btn {
+    margin-left: 26px;
+    padding: 15px 45px 15px 45px;
+    background: #f6f3e1;
+    border-radius: 47px;
+    text-decoration: none;
+    color: #cfbe56;
+    font-size: 14px;
+    font-weight: 400;
+}
+a.prodc-btn {
+    margin-left: 26px;
+    padding: 15px 45px 15px 45px;
+    background: #eee9f7;
+    border-radius: 47px;
+    text-decoration: none;
+    color: #7e6cde;
+    font-size: 14px;
+    font-weight: 400;
+}
+a.prod-btn {
+    margin-left: 26px;
+    padding: 15px 45px 15px 45px;
+    background: #ded9f8;
+    border-radius: 47px;
+    text-decoration: none;
+    color: #7e6cde;
+    font-size: 14px;
+    font-weight: 400;
+}
+/*Prodect Sec 2 End*/
+/*Pricing Start*/
+.footer-section{
+    background-color: #f85d62;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.pricing-text h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 120px;
+    font-weight: 600;
+
+}
+.pricing-text span{
+    font-size: 24px;
+    color: #fcaeb1;
+}
+.per-month h4 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 35px;
+}
+.per-month{
+    position: relative;
+}
+.per-month li {
+    display: block;
+}
+.footer-text h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+.per-month ul li p {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 70px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+li.altm i {
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    left: 30%;
+    bottom: 45px;
+}
+li.alm i {
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    left: 30%;
+    bottom: 3px;
+}
+a.fotter-1st-btn {
+    background: #6753e1;
+    color: #ffffff;
+    padding: 18px 40px 18px 40px;
+    text-decoration: none;
+    max-width: 280px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 75px;
+}
+a.fotter-1st-btn:hover{
+    background-color: #000;
+}
+.last {
+    color: #faa3a5;
+    margin-top: 20px;
+}
+/*Pricing End*/
+
+.for-free{
+    background-image: url(../img/persent-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.free h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 30px;
+}
+a.free-btn{
+    
+    background: #6753e1;
+    color: #ffffff;
+    padding: 18px 40px 18px 40px;
+    text-decoration: none;
+    max-width: 280px;
+    border-radius: 40px;
+    margin: auto;
+}
+a.free-btn:hover{
+    background-color: #000;;
+}
+.sassland-footer{
+    background-color: #403b84;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.con ul li {
+    display: block;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.con ul{
+    padding-left: 0;
+}
+.con ul li a {
+    color:#bab5df;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+    text-decoration: none;
+}
+.con h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 45px;
+}
+.con ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.copy-icon ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.copy-icon ul li i{
+    font-size: 16px;
+    color:#677294 ;
+    transition: .5s;
+    background-color: transparent;
+    padding: 7px 7px 7px 7px;
+    border-radius: 100%;
+}
+.copy-icon i:hover{
+    background-color: #fff;
+    padding: 7px 7px 7px 7px;
+    border-radius: 100%;
+}
+.copy-icon p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #bab5df;
+}
